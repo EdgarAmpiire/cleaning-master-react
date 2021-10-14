@@ -70,9 +70,8 @@ const LogIn = () => {
             }).finally(() => setIsLoading(false));
     }
     return (
-        <div className="log-in-bg pt-5 pb-4 text-center">
+        <div className="log-in-bg pt-5 pb-5 text-center">
             <div className="container mb-5">
-                <div className="top-margin"></div>
                 <div className="bg-white rounded shadow p-5 pb-2 g-4 w-75 mx-auto log-sign">
                     <div className="row align-items-center">
                         <div className="login-form col-12 col-lg-6 pt-2 pt-lg-0">

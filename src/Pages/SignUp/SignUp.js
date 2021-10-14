@@ -73,11 +73,9 @@ const SignUp = () => {
             }).finally(() => setIsLoading(false));
     }
     return (
-        <div className="sign-up-bg  pb-2 text-center">
-            <div className="top-margin"></div>
-            <div className="mt-5"></div>
-            <div className="container mb-3">
-                <div className="bg-white rounded shadow p-4 pb-2 g-4 w-75 mx-auto log-sign">
+        <div className="sign-up-bg text-center">
+            <div className="container pt-3 pb-5">
+                <div className="bg-white rounded shadow p-4 g-4 w-75 mx-auto log-sign">
                     <div className="row  align-items-center">
                         <div className="col-12 col-lg-6">
                             <img src={signup} alt="" className="img-fluid" />

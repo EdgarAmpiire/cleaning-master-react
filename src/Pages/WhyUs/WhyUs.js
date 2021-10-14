@@ -16,24 +16,24 @@ const WhyUs = () => {
                             <h5 className="color">WHAT CHOOSE US</h5>
                             <h1 className="service-txt w-75 mx-auto mx-md-0">Why Choose Our Service Provider</h1>
                         </div>
-                        <Row className="g-4">
+                        <Row className="g-4 text-center">
                             <Col xs={6}>
-                                <img src={why1} alt="" />
+                                <img src={why1} className="img-fluid why-img" alt="" />
                                 <h3 className="fw-bold my-2">Satisfaction Guaranteed</h3>
                                 <p className="text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quisquam.</p>
                             </Col>
                             <Col xs={6}>
-                                <img src={why2} alt="" />
+                                <img src={why2} className="img-fluid why-img" alt="" />
                                 <h3 className="fw-bold my-2">Screened & Trained Team</h3>
                                 <p className="text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quisquam.</p>
                             </Col>
                             <Col xs={6}>
-                                <img src={why3} alt="" />
+                                <img src={why3} className="img-fluid why-img" alt="" />
                                 <h3 className="fw-bold my-2">Flexible Arrival Time</h3>
                                 <p className="text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quisquam.</p>
                             </Col>
                             <Col xs={6}>
-                                <img src={why4} alt="" />
+                                <img src={why4} className="img-fluid why-img" alt="" />
                                 <h3 className="fw-bold my-2">Competetive Pricing</h3>
                                 <p className="text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quisquam.</p>
                             </Col>

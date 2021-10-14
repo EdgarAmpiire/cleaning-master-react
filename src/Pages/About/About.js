@@ -13,11 +13,13 @@ const About = () => {
                     <Col xs={12} md={5} lg={6} className="about-box">
                         <img src={aboutImg} alt="" className="img-fluid" />
                     </Col>
-                    <Col xs={12} md={7} lg={6} className="text-center text-md-start p-3 p-lg-0 mt-5">
-                        <h5 className="color">ABOUT US</h5>
-                        <h1 className="">Best Cleaning Services Provider Since 2001</h1>
-                        <p className="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet provident ratione repudiandae quis, eum, doloribus commodi sed, natus quam dignissimos culpa quasi</p>
-                        <div className="mt-4">
+                    <Col xs={12} md={7} lg={6} className="p-3 p-lg-0 mt-5">
+                        <div className="text-center text-md-start ">
+                            <h5 className="color">ABOUT US</h5>
+                            <h1 className="">Best Cleaning Services Provider Since 2001</h1>
+                            <p className="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet provident ratione repudiandae quis, eum, doloribus commodi sed, natus quam dignissimos culpa quasi</p>
+                        </div>
+                        <div className="mt-4 text-start">
                             <div className="d-flex mb-2">
                                 <FontAwesomeIcon icon={faCheckSquare} className="me-2 color fs-3" />
                                 <h5>Loaded With Professional and Honest Cleaners</h5>

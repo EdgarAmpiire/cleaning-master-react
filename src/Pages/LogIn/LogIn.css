@@ -1,6 +1,6 @@
 .log-in-bg{
     background-image: linear-gradient(#18808050, #b1092d50);
-    height: 100vh;
+    /* height: 100vh; */
 }
 .fs-icon{
     font-size: 45px;
