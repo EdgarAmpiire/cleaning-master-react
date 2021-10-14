@@ -1,0 +1,30 @@
+.log-in-bg{
+    background-image: linear-gradient(#18808050, #b1092d50);
+    height: 100vh;
+}
+.fs-icon{
+    font-size: 45px;
+    transition: all .5s;
+}
+.fs-icon:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.icon-twitter{
+    color: #009DED;
+}
+.icon-facebook{
+    color: #046FE5;
+}
+/* using some media query  */
+@media (max-width:992px) { 
+.login-form{
+order: 2;
+}
+.login-img{
+order: 1;
+}
+.log-in-bg, .sign-up-bg{
+    height: 100%;
+}
+}
